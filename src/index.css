@@ -27,3 +27,21 @@ body {
     url("/bg-pattern-bottom-desktop.svg") bottom right no-repeat, var(--white);
   font-family: "League Spartan", sans-serif;
 }
+
+@media screen and (max-width: 1400px) {
+  body {
+    padding: 118px 120px 100px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  body {
+    padding: 118px 80px 100px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  body {
+    padding: 118px 40px 100px;
+  }
+}
