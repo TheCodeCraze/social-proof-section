@@ -1,0 +1,57 @@
+.testimonial {
+  width: 350px;
+  height: 234px;
+  padding: 40px 32px 35px;
+  background: var(--very-dark-magenta);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.testimonial:nth-child(1) {
+  align-self: flex-start;
+}
+
+.testimonial:nth-child(3) {
+  align-self: flex-end;
+}
+
+.profile {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.info {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--soft-pink);
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 22px;
+  letter-spacing: -0.3px;
+}
