@@ -29,3 +29,20 @@
   font-weight: 700;
   color: var(--very-dark-magenta);
 }
+
+@media screen and (max-width: 11145) {
+  .rating:nth-child(1),
+  .rating:nth-child(3) {
+    align-self: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rating {
+    width: 100%;
+    height: 78px;
+    padding: 16px 0 15px;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

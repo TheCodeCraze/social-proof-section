@@ -18,10 +18,10 @@ html,
 body {
   width: 100%;
   max-width: 1440px;
-  height: 800px;
 }
 
 body {
+  height: 800px;
   padding: 118px 165px 100px;
   background: url("/bg-pattern-top-desktop.svg") top left no-repeat,
     url("/bg-pattern-bottom-desktop.svg") bottom right no-repeat, var(--white);
@@ -43,5 +43,39 @@ body {
 @media screen and (max-width: 1220px) {
   body {
     padding: 118px 40px 100px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  body {
+    height: 1000px;
+    padding: 100px 80px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    height: 1232px;
+    padding: 100px 10px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  body {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 82px 24px 99px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  body {
+    background: url("/bg-pattern-top-mobile.svg") top left no-repeat,
+      url("/bg-pattern-bottom-mobile.svg") bottom right no-repeat, var(--white);
+    background-size: 100%;
   }
 }

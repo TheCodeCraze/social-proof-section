@@ -52,3 +52,65 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1145px) {
+  .ratings {
+    width: 445px;
+  }
+
+  .testimonials {
+    height: 484px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .info {
+    height: 477px;
+    flex-direction: column;
+  }
+
+  .text {
+    height: 245px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .testimonials {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    gap: 49px;
+  }
+
+  .info {
+    height: auto;
+    gap: 39px;
+  }
+
+  .text {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: -1.43px;
+    margin-bottom: 17px;
+  }
+
+  .ratings {
+    width: 100%;
+    height: auto;
+    justify-content: unset;
+    gap: 16px;
+  }
+}
