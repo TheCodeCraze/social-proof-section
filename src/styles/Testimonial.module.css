@@ -5,7 +5,7 @@
   background: var(--very-dark-magenta);
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 27px;
   border-radius: 8px;
 }
 
