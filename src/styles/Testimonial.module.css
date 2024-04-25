@@ -5,7 +5,7 @@
   background: var(--very-dark-magenta);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 31px;
   border-radius: 8px;
 }
 
@@ -67,7 +67,6 @@
   .testimonial {
     width: 100%;
     height: 248px;
-    justify-content: unset;
     gap: 23px;
   }
 }
